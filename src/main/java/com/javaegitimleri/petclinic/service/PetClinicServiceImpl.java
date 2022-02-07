@@ -42,7 +42,7 @@ public class PetClinicServiceImpl implements PetClinicService{
 	}
 
 	@Override
-	public void update(Owner owner) {
+	public void updateOwner(Owner owner) {
 		ownerRepository.update(owner);
 	}
 

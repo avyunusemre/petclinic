@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.javaegitimleri.petclinic.model.Pet;
 
-public interface PathRepository {
+public interface PetRepository {
 	Pet findById(Long id);
 	List<Pet> findByOwnerId(Long ownerId);
 	void create(Pet pet);
