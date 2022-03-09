@@ -3,8 +3,11 @@ package com.javaegitimleri.petclinic.dao;
 import java.util.List;
 
 import com.javaegitimleri.petclinic.model.Pet;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Repository;
 
-public interface PetRepository {
+@Repository
+public interface PetRepository{
 	Pet findById(Long id);
 	List<Pet> findByOwnerId(Long ownerId);
 	void create(Pet pet);

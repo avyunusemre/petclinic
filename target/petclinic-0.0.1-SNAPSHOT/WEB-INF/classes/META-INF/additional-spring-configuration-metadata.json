@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "petclinic.display-owners-with-pets",
+      "type": "java.lang.String",
+      "description": "Description for petclinic.display-owners-with-pets."
+  }
+] }

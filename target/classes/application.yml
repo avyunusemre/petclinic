@@ -1,1 +1,1 @@
-#logging:#  level:#      org.springframework.web: "debug"#    file: "petclinic.log"
+#logging:#  level:#    org.springframework.jdbc.datasource: debug#  file:#    name: petclinic.log#      org.springframework.web: "debug"#    file: "petclinic.log"
